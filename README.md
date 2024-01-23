@@ -14,7 +14,7 @@ Replace file path with the path where you stored the model.
 When you click predict, the program predicts whether the review is positive or negative.
 
 ## movie_review_model.h5
-This is a sample model. Download this file and specify the its path in this line.
+This is a sample model. Download this file and specify the its path in this line in app.py file.
 
 loaded_model = tf.keras.models.load_model('G:\\vscode\\Projects\\sentiment_analysis\\movie_review_model.h5')
 
