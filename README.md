@@ -13,6 +13,14 @@ loaded_model = tf.keras.models.load_model('G:\\vscode\\Projects\\sentiment_analy
 Replace file path with the path where you stored the model.
 When you click predict, the program predicts whether the review is positive or negative.
 
+## movie_review_model.h5
+This is a sample model. Download this file and specify the its path in this line.
+
+loaded_model = tf.keras.models.load_model('G:\\vscode\\Projects\\sentiment_analysis\\movie_review_model.h5')
+
+If you are using this model, there is no need to run the generatemodel.py file because it does the same thing, 
+create a model.
+
 # Prerequisites
 pip install tkinter.
 
